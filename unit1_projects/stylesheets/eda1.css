@@ -1,0 +1,17 @@
+
+body {
+	background: #F2F2ED;
+}
+
+#big-header {
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.body-paragraph {
+	color: #005E4A;
+	font-family: sans-serif;
+	line-height: 1.5rem;
+	max-width: 25rem;
+}
