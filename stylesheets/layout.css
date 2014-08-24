@@ -5,6 +5,12 @@
 body {
 	font-family: sans-serif;
 	background: #F2F2ED;
+	line-height: 1.6em;
+}
+
+
+h1 .small {
+	font-size: 1rem;
 }
 
 .block-text {
@@ -16,9 +22,29 @@ body {
 	margin: 3rem auto;
 	padding: 2rem;
 }
+.left-col {
+	max-width: 70%;
+	clear: none;
+	float: left;
+}
+
+.right-col {
+	width: 20%;
+	margin-left: 1rem;
+	clear: none;
+	float: left;
+	background: #FFFFFC;
+	padding: 2.5rem 1rem;
+}
 
 .post {
-	padding: 2.5rem 2rem;
+	padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.post.intro {
+	background: #FFFFFC;
+	border-radius: 20px;
+	margin-bottom: 1rem;
 }
 
 .post.technical {
