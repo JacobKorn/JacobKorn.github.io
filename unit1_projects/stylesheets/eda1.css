@@ -3,6 +3,12 @@ body {
 	background: #F2F2ED;
 }
 
+.container {
+	width: 70%;
+	margin: 3rem auto;
+	padding: 2rem;
+}
+
 #big-header {
 	color: red;
 	font-weight: bold;
