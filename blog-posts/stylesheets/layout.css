@@ -1,0 +1,30 @@
+/*/////////////*/
+/*Layout Styles*/
+/*/////////////*/
+
+body {
+	font-family: sans-serif;
+	background: #F2F2ED;
+}
+
+.block-text {
+	line-height: 1.6em;
+}
+
+.container {
+	width: 70%;
+	margin: 3rem auto;
+	padding: 2rem;
+}
+
+.post {
+	padding: 2.5rem 2rem;
+}
+
+.post.technical {
+	background: #EDE9DF;
+}
+
+.post.cultural {
+	background: #E7F2D8;
+}
