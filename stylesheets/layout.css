@@ -54,3 +54,15 @@ h1 .small {
 .post.cultural {
 	background: #E7F2D8;
 }
+
+img.thumbnail {
+	display: block;
+	margin: 1rem auto 2rem auto;
+	padding: 1rem;
+	border-radius: 1rem;
+	border-style: solid;
+	border-color: #888F8D;
+	border-width: 1px;
+
+}
+
