@@ -8,9 +8,25 @@ body {
 	line-height: 1.6em;
 }
 
+a:link {
+	color: #568A34;
+	text-decoration: none;
+}
+a:visited {
+	color: #568A34;
+}
+a:hover {color: red;}
+a:active {color: yellow;}
 
 h1 .small {
 	font-size: 1rem;
+}
+
+.head-link {
+	color: inherit !important;
+}
+.head-link.a:hover {
+	color: #9E9E9E;
 }
 
 .block-text {
@@ -18,7 +34,8 @@ h1 .small {
 }
 
 .container {
-	width: 70%;
+	width: 80%;
+	min-width: 1024px;
 	margin: 3rem auto;
 	padding: 2rem;
 }
@@ -36,6 +53,12 @@ h1 .small {
 	background: #FFFFFC;
 	padding: 2.5rem 1rem;
 }
+
+.right-col ul {
+	list-style-type: none;
+	padding: 0 1rem;
+}
+
 
 .post {
 	padding: 0.5rem 2rem 1rem 2rem;
@@ -56,6 +79,7 @@ h1 .small {
 }
 
 img.thumbnail {
+	max-width: 80%;
 	display: block;
 	margin: 1rem auto 2rem auto;
 	padding: 1rem;
